@@ -1,0 +1,802 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+body{
+    margin:0px;
+    background-color:white;
+}
+
+nav{
+    margin-top:15px;
+    background-color: #2a3847;
+    width:100%;
+    height: 77px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.destra{
+height:80%;
+width:50%;
+
+display:flex;
+flex-direction: row;
+justify-content:start;
+margin-bottom:20px;
+margin-left:15px;
+}
+
+.destra #cuffia {
+     width:auto;
+     height:auto;
+     margin-right:10px;
+     margin-top:10px;
+     
+     
+}
+
+.destra p{
+    width: auto;
+    height:auto;
+    color: #f8f8f8;
+    font-size:14px;
+    font-family: poppins ;
+    font-weight: 400;
+    margin-top:15px;
+
+}
+
+.sinistra{
+height: 80%;
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 20px;
+margin-left: 500px;
+}
+
+.sinistra span{
+
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 14px;
+    color: #f8f8f8;
+    
+    margin-left:30px;
+}
+
+.stella {
+    height: 100%;
+    width:auto;
+   display:flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 15px;
+  
+   margin-right: -10px;
+}
+
+.stella div{
+    
+    height:16.8px;
+    width:16.8px;
+}
+
+
+header{
+    height: 157.6px;
+    width: 100%;
+    
+    background-color: whitesmoke;
+}
+
+
+.hd1{
+height: 101px;
+width: 100%;
+background-color: #1F2D3D;
+display: flex;
+justify-content: flex-start;
+
+}
+
+
+
+#logo{
+    height: 100%;
+    width: auto;
+    padding-top: 17px;
+    padding-left:25px ;
+}
+
+
+.hd1 #logo img{
+    height: 66.31px;
+    
+}
+
+
+
+#searchbar{
+    margin-top: 4.5vh;
+height: 5vh;
+background-color: white;
+display: flex;
+justify-content: start;
+align-items: center;
+margin-left: 6vw;
+border-radius: 5px;
+font-family: poppins;
+font-size:14px;
+color: lightblack;
+}
+
+#searchbar #menu_tendina{
+ border-right: 2px solid lightgrey;
+ padding: 5px 15px 5px 15px;
+ height:auto;
+ color: gray;
+ cursor: pointer;
+ width: 8vw;
+ overflow:hidden; /* il testo che eccede lo spazio non viene visualizzato*/
+ white-space: nowrap; /* il testo non va a capo*/
+}
+
+#cerca_button{
+    height: 3.4vh ;
+    background-color: #FEDB22;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 1vh;
+    padding-bottom: 0.5vh;
+    
+    cursor: pointer;
+}
+
+
+
+#ricerca {
+
+height:100%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#searchbar span{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right:2.5vw;
+    color: black;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+
+  #menu-categorie{
+    background-color: whitesmoke;
+    position: absolute;
+    overflow-x:auto;
+    cursor:pointer;
+    z-index: 1;
+    max-height: 22vh ;  /*metto max-height per adattare l'altezza in base al numero di span presenti*/
+        width: 13vw; 
+        margin-top: 10vh; 
+         margin-left: 27vw; 
+    }
+    
+    #menu-categorie span{
+        display:block;
+        padding: 0.3vh;
+        color: gray;
+        font-family: poppins;
+        font-size: 14px;
+    }
+    
+#menu-categorie span:hover{
+    background-color: rgb(40, 40, 223);
+    color:#F5F5F5;
+}
+
+
+
+
+
+
+.carrello-accesso{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: poppins;
+    margin-left:50px;
+}
+
+#accesso{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+
+    border: 0.1px solid lightgray;
+    padding:13px;
+
+}
+
+.carrello-accesso img{
+    height: 19px;
+    width:19px;
+    padding-right:10px;
+}
+
+.carrello-accesso span{
+
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+
+#carrello{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+  
+    border: 0.1px solid lightgray;
+    padding:13px;
+}
+
+
+#email{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+  
+    border: 0.1px solid lightgray;
+    padding:13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hd2{
+background-color: #1F2D3D;
+height: 55px;
+width: 100%;
+border-top: 1px solid lightgrey;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: poppins;
+
+}
+
+.categorie{
+
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+background-color: #2a3847;
+margin-left:25px;
+
+font-size: 15px;
+
+}
+
+.categorie #icona-cat img{
+    height:19px;
+    width:19px;
+    padding-left: 10px;
+    padding-top: 2px;
+
+
+}
+
+.categorie span{
+   padding-top: 8px;
+   padding-bottom: 12px;
+    padding-right:140px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+
+
+.navbar{
+    margin-left:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.navbar a{
+    height: auto;
+    width:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#offerta span{
+    margin-left:350px;
+    background-color: #2a3847;
+    padding-top: 12px;
+   padding-bottom: 12px;
+    padding-right:15px;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+
+
+.hd3{
+
+    background-color: #F5F5F5;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: poppins;
+    color:black;
+    
+}
+
+
+.hd3 .container-desc{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    padding-left:20px;
+}
+ .container-desc .parag .titolo{
+    font-size: 14px;
+    font-weight: 500 ;
+    color: #232323;
+}
+.container-desc .parag .descrizione{
+    padding-right:30px;
+    color: #6d6d6d;
+    font-size: 14px;
+    
+    font-style: italic;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+main .auguri{
+height: 600px;
+ width: 100%;
+margin-top: 115px;
+background-image: url(img/buonapasqua.jpg);
+background-size: cover;
+background-position: center;
+
+font-family: poppins;
+color: white;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+main .auguri h1 {
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 1;
+}
+
+main .auguri h2{
+    margin-top:-15px;
+    font-size: 60px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+main .auguri span{
+    background-color: #FEDB22;
+    color:black;
+    padding:10px 20px 10px 20px;
+    font-size: 14px;
+ 
+
+}
+
+
+main .sezione{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   width:100%;
+   margin-top: 60px;
+
+   font-family: poppins;
+   font-size: 30px;
+   font-weight: 400;
+   
+}
+
+
+main .sezione #titolo-sez{
+    border-bottom: 2px solid black;
+    padding-bottom:0px;
+}
+
+main .sezione .wrapper{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    height:60vh;
+   
+    
+}
+
+main .sezione .main-container{
+    height:55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    background-color: #F5F5F5;
+}
+
+
+main .sezione .main-container .content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top:15px;
+
+
+}
+
+
+main .sezione .main-container .content img {
+
+    height:36vh;
+    width:13.2vw;
+    transition: opacity 0.2s ease;
+}
+
+.carrello{
+    background-color: #FEDB22;
+    margin-top:0.3vh;
+    font-family: poppins;
+    font-size: 14px;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    padding-left: 0.5vw;
+    padding-right:0.5vw;
+}
+
+img.fade-out {
+    opacity: 0;
+}
+
+main .sezione .main-container .content span{
+    max-width: 13.2vw ;
+    font-family: poppins;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    overflow:hidden; 
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+
+main .sezione .main-container .content .prezzo{
+    
+    font-weight: 500;
+}
+
+main .sezione .main-container .content .desc-prodotto{
+
+    padding-top:10px;
+
+}
+
+.ciao{
+    height:350px;
+    width:300px;
+}
+
+.ciao img{
+    height: inherit;
+    width:inherit;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+
+
+.ciao1{
+    height:350px;
+    width:300px;
+    margin-right:20px;
+}
+
+
+.ciao1 img{
+    height: inherit;
+    width:inherit;
+    padding-top: 15px;
+    margin-right: 10px;
+
+}
+
+
+.pre-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height:530px;
+    width:100%;
+    padding-top: 60px;
+    
+    background-color: #1F2D3D;
+    margin-top:70px;
+    margin-right: 0px;
+}
+
+.sez-footer{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    font-family: poppins;
+    margin-left:75px;
+
+    
+}
+
+.sez-footer h1{
+    color: #FEDB22;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.sez-footer span{
+    padding:5px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.sez-footer #box-email{
+    height:45px;
+    width: 250px;
+    background-color:white;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.sez-footer #box-email span{
+    color:#6d6d6d;
+    padding-left: 10px;
+
+}
+
+.sez-footer #iscriviti-button span{
+padding-left:10px;
+     color: black;
+}
+.sez-footer #iscriviti-button{
+    height:45px;
+    width: 250px;
+    background-color: #FEDB22;
+   
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    height: 76px;
+    width:100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2D3D;
+}
+
+.footer img{
+    height:55px;
+    width:250px;
+}
+
+.end-footer{
+    background-color: #1F2D3D;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 141px;
+    width: 100%;
+    font-family: poppins;
+    color:white;
+    font-size:14px;
+}
+
+.end-footer span{
+    padding-top:30px;
+}
+
+
+.hidden{
+    display:none;
+}
+
+.chatbot {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70vh;
+    width: 40vw;
+    border-color: #FEDB22;
+    border-style: solid;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+
+}
+.chatbot .chatlogo{
+    margin-top: 2vh;
+}
+.chatbot img{
+    max-height: 7vh;
+    max-width: 10vw;
+}
+
+.chatbot .input{
+ display: flex;
+ flex-direction: row;
+margin-bottom: 3vh;
+width:100%;
+align-items: center;
+
+justify-content: center;
+}
+
+.chatbot .input input{
+    width: 60%;
+    border-color: lightgray;
+    border-radius: 5px ;
+    box-shadow: none;
+    height: 4vh;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+.chatbot .input button{
+    height: 4.5vh;
+    background-color: whitesmoke;
+    width: 5vw;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color:#6d6d6d;
+}
+
+.chatbot .conversation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex:1;
+    margin-top: 2vh;
+    overflow-y: auto;
+
+}
+
+.conversation::-webkit-scrollbar {
+    display: none;
+}
+
+.messaggi{
+    text-align:left;
+    color:black;
+    font-family: poppins;
+    font-size: 14px; 
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    margin-left: 1vw;
+    width: auto;
+    margin-right: 3vw;
+
+}
